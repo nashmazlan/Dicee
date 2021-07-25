@@ -10,10 +10,10 @@ var image2 = document.querySelectorAll("img")[1].setAttribute("src", randomeDice
 
 
 if (randomNumber1 > randomNumber2) {
-  document.querySelectorAll("h1")[0].innerHTML = "Player 1 Wins";
+  document.querySelectorAll("h1")[0].innerHTML = "Option 1 Wins";
   document.querySelectorAll("h2")[0].innerHTML = "";
 } else if (randomNumber2 > randomNumber1) {
-  document.querySelectorAll("h1")[0].innerHTML = "Player 2 Wins";
+  document.querySelectorAll("h1")[0].innerHTML = "Option 2 Wins";
   document.querySelectorAll("h2")[0].innerHTML = "";
 } else if (randomNumber1 == randomNumber2) {
   document.querySelectorAll("h1")[0].innerHTML = "Draw! Roll Again~"
