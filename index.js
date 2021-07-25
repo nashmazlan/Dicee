@@ -1,3 +1,4 @@
+alert("Let's settle this! Refresh Me!);
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 var randomDiceImage = "images/dice" + randomNumber1 + ".png";
 var image1 = document.querySelectorAll("img")[0].setAttribute("src", randomDiceImage);
@@ -16,3 +17,6 @@ if (randomNumber1 > randomNumber2) {
 } else if (randomNumber1 == randomNumber2) {
   document.querySelector("h1").innerHTML = "Draw! Roll Again~"
 }
+
+
+
