@@ -21,13 +21,6 @@ h1 {
   color: #548CA8;
 }
 
-h2 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 5rem;
-  color: #548CA8;
-}
 
 p {
   font-size: 2rem;
@@ -39,12 +32,6 @@ img {
   width: 80%;
 }
 
-.imgCele{
-  height: 5%;
-  width: 15%;
-  padding-right: 50px;
-  padding-left: 20px;
-}
 
 footer {
   margin-top: 5%;
