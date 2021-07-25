@@ -11,11 +11,11 @@ var image2 = document.querySelectorAll("img")[1].setAttribute("src", randomeDice
 
 
 if (randomNumber1 > randomNumber2) {
-  document.querySelector("h1").innerHTML = "Option 1 Wins";
+  document.querySelectorAll("h1")[0].innerHTML = "Option 1 Wins";
 } else if (randomNumber2 > randomNumber1) {
-  document.querySelector("h1").innerHTML = "Option 2 Wins";
+  document.querySelectorAll("h1")[0].innerHTML = "Option 2 Wins";
 } else if (randomNumber1 == randomNumber2) {
-  document.querySelector("h1").innerHTML = "Draw! Roll Again~"
+  document.querySelectorAll("h1")[0].innerHTML = "Draw! Roll Again~"
 }
 
 
