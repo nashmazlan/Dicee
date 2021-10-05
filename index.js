@@ -22,4 +22,4 @@ if (randomNumber1 > randomNumber2) {
 
 setTimeout(function(){
 document.querySelector("h1").innerHTML = "Let's settle this! Refresh me!"
-}, 1500);
+}, 3000);
